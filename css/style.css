@@ -1,0 +1,137 @@
+#nav_list{
+	margin: 0;
+	padding: 0;
+	border: 0;
+    text-align: center;
+}
+.nav_item{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    padding: 5px;
+    font-size: 20px;
+}
+.nav_item:hover{
+    background-color: wheat;
+    color: #654321;
+    
+}
+
+#nav_list a:link{
+    color: wheat;
+    text-decoration: none;
+}
+#nav_list a:visited{
+    color: wheat;
+    text-decoration: none;
+}
+#nav_list a:hover{
+    color: #654321;
+    text-decoration: underline;
+
+}
+#nav_list a:active{
+    color: #654321;
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    text-decoration: underline;
+}
+body{
+    background-image: url(../img/trees.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    
+}
+
+h1, h2{
+    font-family: "Merriweather";
+}
+
+#schedule{
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+nav{
+    background-color: #654321;
+    position: fixed;
+    width: 100%;
+}
+
+footer{
+    background-color: #654321;
+    text-align: center;
+    padding: 5px;
+    color: #e5d3b3;
+}
+
+main{
+    background-color: #e5d3b3;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+}
+#name{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    font-size: 5rem;
+    
+}
+
+#profile_pic{
+    border-radius: 50%;
+    height: 375px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    padding: 3px;
+    border: 1px solid black;
+    border-spacing: 3px;
+    width: 100px;
+    text-align: center;
+}
+
+.sched_heads{
+    background: grey;
+    color: white;
+    text-align: center;
+}
+
+.work{
+    background-color: darkblue;
+    color: white;
+}
+.cpp_prog{
+    background-color: darkgreen;
+    color: white;
+}
+.networks{
+    background-color: skyblue;
+    color: white;
+}
+.software_eng{
+    background-color: hotpink;
+    color
+}
